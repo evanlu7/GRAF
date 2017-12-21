@@ -9,74 +9,75 @@
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
-      <!-- Material Design Bootstrap -->
+    <!-- Material Design Bootstrap -->
     <link href="mdb/css/mdb.min.css" rel="stylesheet">
-
 </head>
 </head>
 
 <body>
+    <div class="container">
+        <img src="img/Logo.png" alt="Logo">
+    </div>
     <!-- FORM  -->
-    <div class="container-lg">
+    <div class="container" id="form">
         <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h1>Shorten any URL in less than a second</h1>
-                            <p>Make it easier to send and embed links</p>
-                            <!-- GOOGLE SHORTEN URL -->
-                            <!--MDB LINK -->
- <div class="md-form">
-    <input type="text" id="form1" class="form-control">
-    <label for="form1" class="">Example label</label>
-</div>
-                            <p class="text-center">Enter the URL</p>
-                            <div class="form-group" style="
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h1><strong>Shorten any URL in less than a second.</strong></h1>
+                        <br>
+                        <h4>Make it easier to send and embed links</h4>
+                        <br>
+                        <!--MDB LINK -->
+                        <div class="md-form">
+                            <input placeholder="Type in or paste link here" type="text" id="form5" class="form-control">
+                            <label for="form5">Link</label>
+                        </div>
+                        <!-- GOOGLE SHORTEN URL -->
+                        <p class="text-center">Enter the URL</p>
+                        <div class="form-group" style="
         width: 50%;
         margin-left: 25%;
         text-align: -webkit-center;
     ">
-                                <input class="form-control" type="text" id="shortenURL" placeholder="Link">
-                                <input class="form-control" type="text" id="shortenURL" placeholder="Shortened URL">
-                                <button class="btn btn-success" type="submit" id="shorten">GENERATE</button>
-                            </div>
-                            <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-                            <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-                            <script type="text/javascript" src="js/scripts.js"></script>
-                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-                            <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
-                            <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-                            <script src="js/app.js"></script>
-                            <!-- END GOOGLE SHORTEN URL -->
+                            <input class="form-control" type="text" id="shortenURL" placeholder="Link">
+                            <input class="form-control" type="text" id="shortenURL" placeholder="Shortened URL">
+                            <button class="btn btn-success" type="submit" id="shorten">GENERATE</button>
                         </div>
+                        <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+                        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                        <script type="text/javascript" src="js/scripts.js"></script>
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+                        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+                        <script src="js/app.js"></script>
+                        <!-- END GOOGLE SHORTEN URL -->
                     </div>
+                </div>
         </section>
-        
         <!-- END FORM -->
         <!-- NAVBAR -->
-        <div class="container-fluid">
+        <div class="container">
             <div class="fixed-bottom">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">+1 424 829 3749</a>
+                        <a href="tel:14248293749">+1 424 829 3749</a> 
+                        <!-- <a class="nav-link active" href="#">+1 424 829 3749</a> -->
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">thisisatest@gmail.com</a>
+                        <a href="mailto:thisisatest@gmail.com?Subject=Trim" target="_top">thisisatest@gmail.com</a>
+                        <!-- <a class="nav-link" href="#">thisisatest@gmail.com</a> -->
                     </li>
-                    <div class="d-flex ">
-                        <li class="nav-item">
-                            <div class="d-flex justify-content-end">
-                                <a class="nav-link" href="#">©The Testing Company.  All Rights Reserved</a>
-                            </div>
-                        </li>
-                    </div>
+                    <li class="nav-item">                        
+                        <a class="nav-link" href="#">©The Testing Company.  All Rights Reserved</a>
+                    </li>
+                </ul>
             </div>
-            </ul>
         </div>
-        <!-- END NAVBAR -->
 
-                <!-- MDB core JavaScript -->
-        <script type="text/javascript" src="mdb/js/mdb.min.js"></script>
+    <!-- END NAVBAR -->
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="mdb/js/mdb.min.js"></script>
 </body>
 
 </html>
