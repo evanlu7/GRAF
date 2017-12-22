@@ -1,42 +1,58 @@
 body {
-	background-image: url("../img/Background.png");
+    background-image: url("../img/Background.png");
 }
 
 .fixed-bottom {
-	background: black;
+    background: black;
 }
 
 #form {
-	position:fixed;
-	margin-left: 20px;
-	margin-top: 100px;
-	padding: 30px;
-	width: 500px;
-	background: white;
-
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 100px;
+    padding: 30px;
+    width: 500px;
+    background: white;
 }
 
 
-.logo{
-	position: absolute;
-margin-left: 20px;
-	
+.logo {
+    position: absolute;
+    margin-left: 20px;
 }
 
 span {
-	color: black;
+    color: black;
 }
-nav.nav-item{
-	color:white;
+
+nav.nav-item {
+    color: white;
 }
+
 
 /*REMOVE PLACEHOLDER*/
-input:focus::-webkit-input-placeholder { color:transparent; }
-input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
-input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
-input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
 
 
+/* FF 4-18 */
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
 
 
+/* FF 19+ */
 
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+
+/* IE 10+ */

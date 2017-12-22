@@ -6,32 +6,17 @@ $("#shorten").click(function writeToPage() {
         type: 'POST',
         contentType: 'application/json; charset=utf-8',
         data: '{longUrl:"' + longUrl + '"}',
-        success: function (response) {
+        success: function(response) {
             console.log(response["id"]);
-            var shortURL = "<a href=" + response["id"] + " target=_BLANK >" + response["id"] + "</a>";             
-             document.getElementById("form7").innerHTML = shortURL;
+            var shortURL = "<a href=" + response["id"] + " target=_BLANK >" + response["id"] + "</a>";
+            document.getElementById("form7").innerHTML = shortURL;
 
-
-
-             // Change to COPY  on click
+            // Change to COPY  on click
             $("form7").css('color', 'black');
             document.getElementById("shorten").innerHTML = '<h3 class="text-center font-weight-bold" id="copy">COPY</h3>';
 
-
-// Copy Link
-
-
-
-
-
-
-
+            // Copy Link
 
         }
     });
-
-          
-
-
-
 });
