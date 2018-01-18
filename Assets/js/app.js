@@ -11,9 +11,9 @@ $("#shorten").click(function writeToPage() {
             var shortURL = "<a href=" + response["id"] + " target=_BLANK >" + response["id"] + "</a>";
             document.getElementById("form7").innerHTML = shortURL;
 
-            // Change text on click
-            $("form7").css('color', 'black');
-            document.getElementById("shorten").innerHTML = '<h3 class="text-center font-weight-bold" id="copy">Here is your shortened URL!</h3>';
+            // // Change text on click
+            // $("form7").css('color', 'black');
+            // document.getElementById("shorten").innerHTML = '<h3 class="text-center font-weight-bold" id="copy">Here is your shortened URL!</h3>';
 
             // Copy Link
 
